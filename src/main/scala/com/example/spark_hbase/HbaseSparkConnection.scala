@@ -7,41 +7,49 @@ import org.apache.hadoop.hbase.HBaseConfiguration
 object HbaseSparkConnection {
   def main(args: Array[String]): Unit = {
 
-    //Connection Establishment
+    //Define spark session
 
     val spark = SparkSession.builder().getOrCreate()
 
+    // Hbase connection setup with help of zookeeper:
+
     val conf = new HBaseConfiguration()
-    conf.set("hbase.zookeeper.quorum", "master2.orange.com,master1.orange.com,utility.orange.com")
-    conf.set("hbase.zookeeper.property.clientPort", "2181")
+    conf.set("hbase.zookeeper.quorum", "hostname1,hostname2...") //zookeeper servers
+    conf.set("hbase.zookeeper.property.clientPort", "2181") // zookeeper server port
     new HBaseContext(spark.sparkContext, conf)
 
-    //Read data
+    //Read data from Hbase into a Spark Dataframe:
 
     val sql = spark.sqlContext
 
-    Var HBase table 
+    val hbaseTable = "default:WAR_PLAN" // Hbase table name
 
-    Var column mapping (well structured)
+    val columnMapping =
+      """id string :key,
+        |infantryNumber string: infantry:number,
+        |cavalryNumber string: cavalry:number""".stripMargin //Mapping between Hbase table and Spark dataframe
 
-    Var source
+    val hbaseSource = "org.apache.hadoop.hbase.spark" // Library responsible for fetching hbase data into spark
 
-    val data = sql.read.format("org.apache.hadoop.hbase.spark").option("hbase.columns.mapping", mapping_hbase).option("hbase.table", hbase_table)
-    val df= data.load()
-    df.createOrReplaceTempView("name")
+    val hbaseData = sql.read.format(hbaseSource).option("hbase.columns.mapping", columnMapping).option("hbase.table", hbaseTable)
+    val hbaseDf= hbaseData.load() //Load data into a Dataframe
+    hbaseDf.createOrReplaceTempView("hbaseDataframe") // Save the dataframe into a temp view for sql querying
 
 
-    df.show()
-    df.printSchema
+    hbaseDf.show() // Check dataframe content
+    hbaseDf.printSchema // Check dataframe mapped columns
 
-    //Write data
+    //Write data from Spark dataframe into an hbase table :
 
-    val hiveData = spark.sql("select * from default.sampleTable")
-    hiveData.createOrReplaceTempView("name")
+    val hiveTmp = spark.sql("select * from default.war_plan") // Select data from Hive table
 
-    val insertStatement
+    val columns: Array[String]= hbaseDf.columns
+    val hiveDf = hiveTmp.select(columns.head, columns.tail: _*) // Select hive dataframe columns in the same order as those for hbase.
+    hiveDf.createOrReplaceTempView("hiveDataframe")
 
-    spark.sql(insertStatement)
+
+    val insertStatement = "insert into hiveDataframe select * from hbaseDataframe"
+    spark.sql(insertStatement) // Execute the insert statement.
 
 
 
