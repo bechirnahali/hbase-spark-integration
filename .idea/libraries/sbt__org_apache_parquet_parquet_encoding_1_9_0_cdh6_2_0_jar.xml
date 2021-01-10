@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.parquet:parquet-encoding:1.9.0-cdh6.2.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/parquet/parquet-encoding/1.9.0-cdh6.2.0/parquet-encoding-1.9.0-cdh6.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/parquet/parquet-encoding/1.9.0-cdh6.2.0/parquet-encoding-1.9.0-cdh6.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/parquet/parquet-encoding/1.9.0-cdh6.2.0/parquet-encoding-1.9.0-cdh6.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
