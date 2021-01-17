@@ -10,11 +10,10 @@ resolvers ++= Seq("spark hadoopoffice" at "https://mvnrepository.com/artifact/co
 
 
 libraryDependencies ++= Seq(
-  "org.apache.spark"     %% "spark-core" % "2.4.0-cdh6.2.0" ,
-  "org.apache.spark"     %% "spark-sql"  % "2.4.0-cdh6.2.0" ,
-  "org.apache.hbase"     % "hbase-spark" % "2.1.0-cdh6.2.0" ,
+  "org.apache.spark"     %% "spark-core" % "2.4.0-cdh6.3.4" ,
+  "org.apache.spark"     %% "spark-sql"  % "2.4.0-cdh6.3.4" ,
+  "org.apache.hbase"     % "hbase-spark" % "2.1.0-cdh6.3.4" ,
   "org.apache.spark"     % "spark-streaming_2.11" % "2.4.0"
-
 
 )
 
