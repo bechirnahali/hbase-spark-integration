@@ -26,8 +26,8 @@ object HbaseSparkConnection {
 
     val columnMapping =
       """id string :key,
-        |infantryNumber string: infantry:number,
-        |cavalryNumber string: cavalry:number""".stripMargin //Mapping between Hbase table and Spark dataframe
+        |infantryNumber string infantry:number,
+        |cavalryNumber string cavalry:number""".stripMargin //Mapping between Hbase table and Spark dataframe
 
     val hbaseSource = "org.apache.hadoop.hbase.spark" // Library responsible for fetching hbase data into spark
 

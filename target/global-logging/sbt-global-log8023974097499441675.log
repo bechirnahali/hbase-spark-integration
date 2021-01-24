@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.6 (Private Build Java 1.8.0_252)
+[debug]       Load.loadUnit: plugins took 188.034303ms
+[debug]       Load.loadUnit: defsScala took 0.455725ms
+[debug] [Loading] Scanning directory /home/bechir/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/bechir/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 252.107001 ms
+[debug]           Load.resolveProject(global-plugins) took 120.359434ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/bechir/.sbt/1.0/plugins, plugins: List(<none>))) took 425.633338ms
+[debug] [Loading] Done in /home/bechir/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 464.242329ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.340342ms
+[debug]     Load.loadUnit(file:/home/bechir/.sbt/1.0/plugins/, ...) took 667.123823ms
+[debug]   Load.apply: load took 1086.202696ms
+[debug]   Load.apply: resolveProjects took 12.370635ms
+[debug]   Load.apply: finalTransforms took 98.079462ms
+[debug]   Load.apply: config.delegates took 18.52519ms
+[debug]   Load.apply: Def.make(settings)... took 931.004478ms
+[debug]   Load.apply: structureIndex took 248.171787ms
+[debug]   Load.apply: mkStreams took 3.968769ms
+[info] loading global plugins from /home/bechir/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7527.084585ms
+[debug]           Load.loadUnit: plugins took 22.857724ms
+[debug]           Load.loadUnit: defsScala took 0.005501ms
+[debug] [Loading] Scanning directory /home/bechir/Downloads/HBASE_SPARK/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/bechir/Downloads/HBASE_SPARK/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.737584 ms
+[debug]               Load.resolveProject(hbase_spark-build) took 2.74425ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hbase_spark-build, base: /home/bechir/Downloads/HBASE_SPARK/project, plugins: List(<none>))) took 7.546687ms
+[debug] [Loading] Done in /home/bechir/Downloads/HBASE_SPARK/project, returning: (hbase_spark-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 9.831163ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.016764ms
+[debug]         Load.loadUnit(file:/home/bechir/Downloads/HBASE_SPARK/project/, ...) took 33.78183ms
+[debug]       Load.apply: load took 35.462527ms
+[debug]       Load.apply: resolveProjects took 0.18524ms
+[debug]       Load.apply: finalTransforms took 17.190405ms
+[debug]       Load.apply: config.delegates took 0.730297ms
+[debug]       Load.apply: Def.make(settings)... took 95.436266ms
+[debug]       Load.apply: structureIndex took 37.966571ms
+[debug]       Load.apply: mkStreams took 0.002743ms
+[info] loading project definition from /home/bechir/Downloads/HBASE_SPARK/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 923.507769ms
+[debug]     Load.loadUnit: defsScala took 0.003487ms
+[debug] [Loading] Scanning directory /home/bechir/Downloads/HBASE_SPARK
+[debug]       Load.loadUnit: mkEval took 11.889482ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/bechir/Downloads/HBASE_SPARK, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.790003 ms
+[info] loading settings for project hbase_spark from build.sbt ...
+[debug]         Load.resolveProject(hbase_spark) took 5.950222ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id hbase_spark, base: /home/bechir/Downloads/HBASE_SPARK, plugins: List(<none>))) took 9.728902ms
+[debug] [Loading] Done in /home/bechir/Downloads/HBASE_SPARK, returning: (hbase_spark)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3427.303476ms
+[debug]     Load.loadUnit: cleanEvalClasses took 326.633591ms
+[debug]   Load.loadUnit(file:/home/bechir/Downloads/HBASE_SPARK/, ...) took 4678.445665ms
+[debug] Load.apply: load took 4681.286751ms
+[debug] Load.apply: resolveProjects took 0.495499ms
+[debug] Load.apply: finalTransforms took 27.398804ms
+[debug] Load.apply: config.delegates took 0.589295ms
+[debug] Load.apply: Def.make(settings)... took 144.168585ms
+[debug] Load.apply: structureIndex took 38.956252ms
+[debug] Load.apply: mkStreams took 0.006022ms
+[info] set current project to HBASE_SPARK (in build file:/home/bechir/Downloads/HBASE_SPARK/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/bechir/.sbt/1.0/server/e94aa5615116b29b887a/sock
+[info] started sbt server
