@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.parquet:parquet-column:1.9.0-cdh6.3.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/parquet/parquet-column/1.9.0-cdh6.3.4/parquet-column-1.9.0-cdh6.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/parquet/parquet-column/1.9.0-cdh6.3.4/parquet-column-1.9.0-cdh6.3.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/parquet/parquet-column/1.9.0-cdh6.3.4/parquet-column-1.9.0-cdh6.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -16,20 +16,21 @@
     <orderEntry type="library" name="sbt: com.clearspring.analytics:stream:2.7.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:kryo-shaded:4.0.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:minlog:1.3.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-paranamer:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-scala_2.11:2.9.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.10.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-paranamer:2.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-scala_2.11:2.9.10:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.woodstox:woodstox-core:5.0.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.github.luben:zstd-jni:1.3.2-2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.github.stephenc.jcip:jcip-annotations:1.0-1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.code.findbugs:jsr305:3.0.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.code.gson:gson:2.2.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.errorprone:error_prone_annotations:2.3.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.guava:guava:16.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.inject.extensions:guice-servlet:4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.inject:guice:4.0:jar" level="project" />
@@ -37,7 +38,7 @@
     <orderEntry type="library" name="sbt: com.google.re2j:re2j:1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.jcraft:jsch:0.1.54:jar" level="project" />
     <orderEntry type="library" name="sbt: com.lmax:disruptor:3.3.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.nimbusds:nimbus-jose-jwt:4.41.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.nimbusds:nimbus-jose-jwt:7.9:jar" level="project" />
     <orderEntry type="library" name="sbt: com.ning:compress-lzf:1.0.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.squareup.okhttp:okhttp:2.7.5:jar" level="project" />
     <orderEntry type="library" name="sbt: com.squareup.okio:okio:1.6.0:jar" level="project" />
@@ -51,9 +52,9 @@
     <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:chill-java:0.9.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:chill_2.11:0.9.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.univocity:univocity-parsers:2.7.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.univocity:univocity-parsers:2.8.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.vlkan:flatbuffers:1.2.0-3f79e055:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-beanutils:commons-beanutils:1.9.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-beanutils:commons-beanutils:1.9.4:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-cli:commons-cli:1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.11:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-collections:commons-collections:3.2.2:jar" level="project" />
@@ -63,13 +64,14 @@
     <orderEntry type="library" name="sbt: commons-logging:commons-logging:1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-net:commons-net:3.1:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-pool:commons-pool:1.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-core:3.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-core:3.2.6:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-graphite:3.1.5:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-json:3.1.5:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-jvm:3.1.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-all:4.1.17.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-all:4.1.50.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: io.netty:netty:3.10.6.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.activation:activation:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: javax.activation:javax.activation-api:1.2.0:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.annotation:javax.annotation-api:1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.inject:javax.inject:1:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1:jar" level="project" />
@@ -94,7 +96,7 @@
     <orderEntry type="library" name="sbt: org.apache.avro:avro-ipc:1.8.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.avro:avro-mapred:1.8.2:hadoop2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.avro:avro:1.8.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.commons:commons-compress:1.8.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-compress:1.19:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-configuration2:2.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-crypto:1.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.7:jar" level="project" />
@@ -102,37 +104,38 @@
     <orderEntry type="library" name="sbt: org.apache.curator:curator-client:2.12.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.curator:curator-framework:2.12.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.curator:curator-recipes:2.12.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-annotations:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs-client:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-common:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-core:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-jobclient:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-api:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-client:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-common:3.0.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase.thirdparty:hbase-shaded-miscellaneous:2.1.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase.thirdparty:hbase-shaded-netty:2.1.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase.thirdparty:hbase-shaded-protobuf:2.1.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-annotations:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-client:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-common:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-hadoop-compat:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-hadoop2-compat:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-http:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-mapreduce:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-metrics-api:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-metrics:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-procedure:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-protocol-shaded:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-protocol:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-replication:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-server:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-spark:2.1.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-zookeeper:2.1.0-cdh6.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-annotations:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-distcp:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs-client:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-common:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-core:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-jobclient:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-api:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-client:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-common:3.0.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase.thirdparty:hbase-shaded-miscellaneous:2.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase.thirdparty:hbase-shaded-netty:2.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase.thirdparty:hbase-shaded-protobuf:2.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-annotations:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-client:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-common:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-hadoop-compat:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-hadoop2-compat:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-http:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-mapreduce:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-metrics-api:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-metrics:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-procedure:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-protocol-shaded:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-protocol:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-replication:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-server:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-spark:2.1.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hbase:hbase-zookeeper:2.1.0-cdh6.3.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.htrace:htrace-core4:4.2.0-incubating:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpclient:4.5.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpcore:4.4.6:jar" level="project" />
@@ -151,24 +154,25 @@
     <orderEntry type="library" name="sbt: org.apache.kerby:kerby-pkix:1.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.kerby:kerby-util:1.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.kerby:kerby-xdr:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-column:1.9.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-common:1.9.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-encoding:1.9.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-format:2.3.1-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-hadoop:1.9.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-jackson:1.9.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.spark:spark-catalyst_2.11:2.4.0-cdh6.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-column:1.9.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-common:1.9.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-encoding:1.9.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-format:2.4.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-hadoop:1.9.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.parquet:parquet-jackson:1.9.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.spark:spark-catalyst_2.11:2.4.0-cdh6.3.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-core_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-kvstore_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-launcher_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-network-common_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-network-shuffle_2.11:2.4.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.spark:spark-sketch_2.11:2.4.0-cdh6.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.spark:spark-sql_2.11:2.4.0-cdh6.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.spark:spark-sketch_2.11:2.4.0-cdh6.3.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.spark:spark-sql_2.11:2.4.0-cdh6.3.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-streaming_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-tags_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-unsafe_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.xbean:xbean-asm6-shaded:4.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.xbean:xbean-asm7-shaded:4.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.yetus:audience-annotations:0.7.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper:3.4.8:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-core-asl:1.9.13:jar" level="project" />

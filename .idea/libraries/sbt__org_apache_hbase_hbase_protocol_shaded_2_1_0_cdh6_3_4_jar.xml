@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hbase:hbase-protocol-shaded:2.1.0-cdh6.3.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/hbase/hbase-protocol-shaded/2.1.0-cdh6.3.4/hbase-protocol-shaded-2.1.0-cdh6.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/hbase/hbase-protocol-shaded/2.1.0-cdh6.3.4/hbase-protocol-shaded-2.1.0-cdh6.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

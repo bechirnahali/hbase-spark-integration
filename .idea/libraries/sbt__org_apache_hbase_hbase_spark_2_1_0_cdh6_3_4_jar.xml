@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hbase:hbase-spark:2.1.0-cdh6.3.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/hbase/hbase-spark/2.1.0-cdh6.3.4/hbase-spark-2.1.0-cdh6.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

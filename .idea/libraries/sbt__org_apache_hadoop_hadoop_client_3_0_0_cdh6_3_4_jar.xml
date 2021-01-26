@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hadoop:hadoop-client:3.0.0-cdh6.3.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-client/3.0.0-cdh6.3.4/hadoop-client-3.0.0-cdh6.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repository.cloudera.com/artifactory/cloudera-repos/org/apache/hadoop/hadoop-client/3.0.0-cdh6.3.4/hadoop-client-3.0.0-cdh6.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
